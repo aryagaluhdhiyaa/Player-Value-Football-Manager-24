@@ -9,4 +9,4 @@ The code only work if you're 'cheating' in Football Manager 24 an use the in gam
 # Scout Data
 Open Football Manager 24, go to Scouting>Players>Players in Range. Make sure to check off Interested in so you have more player. Make sure in your custom view you have Name, Age, CA, PA, and Transfer Value on. Using this video technique "https://www.youtube.com/watch?v=5XF3CIWu6rM", Name the xlsx file "SCOUT DATA.xlsx" and put the file in the same file directory as the code and the "Training Data.xlsx"
 # Big problem with the Code
-if you use the technique of (Scout Data) there is A LOT of player data that has no name because you're scout doesn't know they're name. And if the scout data player transfer value is 'Not For Sale' they're not calculating predicted transfer value and they're ratio. 
+if you use the technique of (Scout Data) there is A LOT of player data that has no name because you're scout doesn't know they're name. And if the scout data player transfer value is 'Not For Sale' they're not calculating predicted transfer value and they're ratio.
