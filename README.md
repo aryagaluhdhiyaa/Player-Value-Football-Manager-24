@@ -1,4 +1,6 @@
 # Player Value Football Manager 24
-How do you know if a player is Undervalued or Overvalued? If you know they're Age, Current Ability (CA), and Potential Abliity (PA) if you're experienced in Football Manager 24 you can kinda know it.
-So what i did is try to mathematically see it it possible to see it. And from what i have tested you can.
-How does it Work?
+How do you know if a player is Undervalued or Overvalued? If you know they're Age, Current Ability (CA), and Potential Abliity (PA) if you're experienced in Football Manager 24 you can kinda know it. So what i did is try to mathematically see it it possible to see it. And from what i have tested you can.
+# How does it Work?
+What i do is try to predict the player Transfer Value or more spesific they're Lower Transfer Value. Next i calculate the Ratio betwewn Actual Lower Transfer Value and the Predicted Lower Transfer Value. if a Player has the Actual/Predict Ratio Lower then 1 that mean they are Undervalued if it's higher then 1 then the player is Overvalued.
+# How to predict player transfer value?
+Using basic Machine Learning. There is 2 Model that i used to predict a player Lower Transfer Value, Power Law Regression and Random Forest Regression. Why i use Power Law Regression? because i realize in general the higher the CA the higher they're Transfer Value and it grow exponensially and not linearly. But then i realize for outlier like a person who has High CA and PA and is young, they're predicted value is 10 Billion dollar which doesn't make any sense. So i used Random Forest Regression and the predicion make much more sense.
